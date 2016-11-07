@@ -1,0 +1,30 @@
+{
+    "name": "socialengineers/soap-parser",
+    "type": "library",
+    "description": "A library that manually parses SOAP XML requests via the SimpleXMLElement class, allowing retrieval of called SOAP function and parameters.",
+    "keywords": [
+        "soap",
+        "parser",
+        "soap-parser",
+        "xml",
+        "api",
+        "request",
+        "soap-request"
+    ],
+    "homepage": "https://code.farsite.com.au/socialengineers/soap-parser",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dejan Lukic",
+            "email": "dejan.lukic@communitybuilders.com.au"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "SocialEngineers": "src/",
+            "SocialEngineers\\Tests": [
+                "tests/"
+            ]
+        }
+    }
+}
